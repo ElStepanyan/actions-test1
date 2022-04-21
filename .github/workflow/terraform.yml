@@ -6,6 +6,8 @@ on:
       - main
   pull_request:
 
+  workflow_dispatch:
+
 jobs:
   terraform:
     uses: ElStepanyan/actions-test/.github/workflows/terraform.yml@main
