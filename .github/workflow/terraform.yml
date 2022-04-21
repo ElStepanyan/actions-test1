@@ -1,3 +1,11 @@
+name: Terraform2
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
 jobs:
   terraform:
     uses: ElStepanyan/actions-test/.github/workflows/terraform.yml@main
