@@ -1,0 +1,6 @@
+{
+  "severity_overrides": {
+    "aws-vpc-no-public-egress-sgr": "LOW"
+  },
+  "exclude": []
+}
