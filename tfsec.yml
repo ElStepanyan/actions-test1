@@ -1,6 +1,7 @@
 {
   "severity_overrides": {
     "aws-s3-enable-versioning": "LOW" #test
+    "aws-s3-block-public-acls": "LOW"
   },
   "exclude": []
 }
