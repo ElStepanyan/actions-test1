@@ -1,6 +1,6 @@
 {
   "severity_overrides": {
-    "aws-vpc-no-public-egress-sgr": "LOW"
+    "aws-s3-enable-versioning": "LOW" #test
   },
   "exclude": []
 }
