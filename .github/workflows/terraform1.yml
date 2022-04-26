@@ -14,10 +14,10 @@ jobs:
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  docker:
-    uses: ElStepanyan/actions-test/.github/workflows/docker.yml@main
-    secrets:
-      username: ${{ secrets.DOCKERHUB_USERNAME }}
-      password: ${{ secrets.DOCKERHUB_TOKEN }}
+#  docker:
+#    uses: ElStepanyan/actions-test/.github/workflows/docker.yml@main
+#    secrets:
+#      username: ${{ secrets.DOCKERHUB_USERNAME }}
+#      password: ${{ secrets.DOCKERHUB_TOKEN }}
 
 
