@@ -20,7 +20,7 @@ jobs:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
   Custom-Action:
-    uses: ElStepanyan/actions-test/.github/workflows/test-custom-action.yml@main
+     uses: ElStepanyan/actions-test/.github/workflows/test-custom-action.yml@main
 
 
 
