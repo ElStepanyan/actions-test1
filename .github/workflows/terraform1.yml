@@ -25,3 +25,4 @@ jobs:
      uses: ElStepanyan/actions-test/.github/workflows/test-custom-action.yml@main
      needs:
        - docker
+
