@@ -14,8 +14,8 @@ provider "aws" {
 resource "aws_s3_bucket" "bucket" {
   bucket = "dsfbejafkcjeqqqq"
 
-    Name        = "${upper(var.Environment)}-S3"
-    Environment = var.Environment
+  Name        = "${upper(var.Environment)}-S3"
+  Environment = var.Environment
 }
 
 resource "aws_s3_bucket_acl" "bucket" {
