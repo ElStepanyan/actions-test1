@@ -12,14 +12,13 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "dsfbejafkcjeqqqq"
+  bucket = "dsfbejafkcjsdsdeas"
 
   tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
+    Name        = "${upper(var.Environment)}-S3"
+    Environment = var.Environment
   }
 }
-
 resource "aws_s3_bucket_acl" "bucket" {
   bucket = aws_s3_bucket.bucket.id
   acl    = "private"
